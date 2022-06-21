@@ -1,0 +1,11 @@
+{
+    "firstname": "ganesh",
+    "lastname": "naidu",
+    "totalprice": 857,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-06-07",
+        "checkout": "2022-06-09"
+    },
+    "additionalneeds": "Lunch"
+}

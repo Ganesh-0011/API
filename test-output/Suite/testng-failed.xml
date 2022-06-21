@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Test.verifypostmethod">
+        <methods>
+          <include name="Testpostmethod"/>
+        </methods>
+      </class> <!-- Test.verifypostmethod -->
+      <class name="Test.verifyputmethod">
+        <methods>
+          <include name="Testputmethod"/>
+        </methods>
+      </class> <!-- Test.verifyputmethod -->
+      <class name="Test.Verifygetmethod">
+        <methods>
+          <include name="Testgetmethod"/>
+        </methods>
+      </class> <!-- Test.Verifygetmethod -->
+      <class name="Test.verifypatchmethod">
+        <methods>
+          <include name="Testpatchmethod"/>
+        </methods>
+      </class> <!-- Test.verifypatchmethod -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
